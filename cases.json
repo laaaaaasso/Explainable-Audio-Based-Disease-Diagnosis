@@ -1,0 +1,166 @@
+{
+  "cases": [
+    {
+      "case_id": "CASE-01",
+      "audio_file": "audio/01_VOC-ALS_PZ055_rhythmKA.wav",
+      "dataset": "VOC-ALS",
+      "data_label": "PZ",
+      "label_meaning": "Amyotrophic lateral sclerosis",
+      "source_split": "test",
+      "source_record_number": "PZ055",
+      "source_sample_id": "VOC-ALS:test:rhythmKA/PZ055_rhythmKA.wav",
+      "source_relative_path": "rhythmKA/PZ055_rhythmKA.wav",
+      "rubrics": [
+        {
+          "english": "Irregular syllable repetition timing"
+        },
+        {
+          "english": "NOT Clear and consistent consonant release"
+        },
+        {
+          "english": "NOT Smooth and effortless vocal production"
+        },
+        {
+          "english": "Reduced articulatory precision"
+        },
+        {
+          "english": "Slowed syllable repetition rate"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-02",
+      "audio_file": "audio/02_RSD_201_1b1_Ar_sc_Meditron.wav",
+      "dataset": "RSD",
+      "data_label": "Bronchiectasis",
+      "label_meaning": "Bronchiectasis",
+      "source_split": "test",
+      "source_record_number": "201",
+      "source_sample_id": "RSD:test:audio_and_txt_files/201_1b1_Ar_sc_Meditron.wav",
+      "source_relative_path": "audio_and_txt_files/201_1b1_Ar_sc_Meditron.wav",
+      "rubrics": [
+        {
+          "english": "Coarse vibrating sound quality"
+        },
+        {
+          "english": "Continuous sound during respiration"
+        },
+        {
+          "english": "Dominant low-frequency energy"
+        },
+        {
+          "english": "Irregular fluctuations in sound intensity"
+        },
+        {
+          "english": "Low-pitched gurgling respiratory sound"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-03",
+      "audio_file": "audio/03_ADReSSo_adrsdt44.wav",
+      "dataset": "ADReSSo",
+      "data_label": "ProbableAD",
+      "label_meaning": "Probable Alzheimer’s disease",
+      "source_split": "test",
+      "source_record_number": "adrsdt44",
+      "source_sample_id": "ADReSSo:test:diagnosis/test-dist/audio/adrsdt44.wav",
+      "source_relative_path": "diagnosis/test-dist/audio/adrsdt44.wav",
+      "rubrics": [
+        {
+          "english": "Difficulty answering open-ended questions"
+        },
+        {
+          "english": "Difficulty explaining relationships between ideas"
+        },
+        {
+          "english": "Difficulty maintaining topic across sentences"
+        },
+        {
+          "english": "Disorganized description of events"
+        },
+        {
+          "english": "Fragmented speech"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-04",
+      "audio_file": "audio/04_VOC-ALS_CT001_rhythmKA.wav",
+      "dataset": "VOC-ALS",
+      "data_label": "CT",
+      "label_meaning": "Healthy control",
+      "source_split": "test",
+      "source_record_number": "CT001",
+      "source_sample_id": "VOC-ALS:test:rhythmKA/CT001_rhythmKA.wav",
+      "source_relative_path": "rhythmKA/CT001_rhythmKA.wav",
+      "rubrics": [
+        {
+          "english": "Clear and distinct consonant release"
+        },
+        {
+          "english": "Smooth and effortless vocal production"
+        },
+        {
+          "english": "Preserved articulatory precision"
+        },
+        {
+          "english": "Preserved syllable repetition rate"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-05",
+      "audio_file": "audio/05_ADReSSo_adrsdt47.wav",
+      "dataset": "ADReSSo",
+      "data_label": "Control",
+      "label_meaning": "Healthy control",
+      "source_split": "test",
+      "source_record_number": "adrsdt47",
+      "source_sample_id": "ADReSSo:test:diagnosis/test-dist/audio/adrsdt47.wav",
+      "source_relative_path": "diagnosis/test-dist/audio/adrsdt47.wav",
+      "rubrics": [
+        {
+          "english": "Ability to use reflective language"
+        },
+        {
+          "english": "Ability to answer open-ended questions"
+        },
+        {
+          "english": "Ability to explain relationships between ideas"
+        },
+        {
+          "english": "Ability to maintain topic across sentences"
+        },
+        {
+          "english": "Adequate information content in speech"
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-06",
+      "audio_file": "audio/06_ADReSSo_adrsdt5.wav",
+      "dataset": "ADReSSo",
+      "data_label": "Control",
+      "label_meaning": "Healthy control",
+      "source_split": "test",
+      "source_record_number": "adrsdt5",
+      "source_sample_id": "ADReSSo:test:diagnosis/test-dist/audio/adrsdt5.wav",
+      "source_relative_path": "diagnosis/test-dist/audio/adrsdt5.wav",
+      "rubrics": [
+        {
+          "english": "Ability to answer open-ended questions"
+        },
+        {
+          "english": "Adequate information content in speech"
+        },
+        {
+          "english": "Coherent and connected speech"
+        },
+        {
+          "english": "Organized description of events"
+        }
+      ]
+    }
+  ]
+}
